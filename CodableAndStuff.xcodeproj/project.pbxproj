@@ -16,6 +16,7 @@
 		1D03089226615ADE00617229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D03089026615ADE00617229 /* LaunchScreen.storyboard */; };
 		1D03089D26615ADE00617229 /* CodableAndStuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D03089C26615ADE00617229 /* CodableAndStuffTests.swift */; };
 		1D0308A826615ADE00617229 /* CodableAndStuffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0308A726615ADE00617229 /* CodableAndStuffUITests.swift */; };
+		1D0308BA26615BBF00617229 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0308B926615BBF00617229 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1D0308A326615ADE00617229 /* CodableAndStuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableAndStuffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0308A726615ADE00617229 /* CodableAndStuffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableAndStuffUITests.swift; sourceTree = "<group>"; };
 		1D0308A926615ADE00617229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0308B926615BBF00617229 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		1D03088126615ADD00617229 /* CodableAndStuff */ = {
 			isa = PBXGroup;
 			children = (
+				1D0308B826615BB100617229 /* Focus */,
 				1D03088226615ADD00617229 /* AppDelegate.swift */,
 				1D03088426615ADD00617229 /* SceneDelegate.swift */,
 				1D03088626615ADD00617229 /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				1D0308A926615ADE00617229 /* Info.plist */,
 			);
 			path = CodableAndStuffUITests;
+			sourceTree = "<group>";
+		};
+		1D0308B826615BB100617229 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				1D0308B926615BBF00617229 /* Contact.swift */,
+			);
+			path = Focus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			files = (
 				1D03088726615ADD00617229 /* ViewController.swift in Sources */,
 				1D03088D26615ADD00617229 /* CodableAndStuff.xcdatamodeld in Sources */,
+				1D0308BA26615BBF00617229 /* Contact.swift in Sources */,
 				1D03088326615ADD00617229 /* AppDelegate.swift in Sources */,
 				1D03088526615ADD00617229 /* SceneDelegate.swift in Sources */,
 			);
